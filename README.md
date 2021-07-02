@@ -1,14 +1,13 @@
 # MFR BDD
 Crée par :
--GUCLU Sefa
--Durée du projet : 5 semaines
--BTS SIO SLAM1
+- GUCLU Sefa (@guclusefa)
+- Durée du projet : 5 semaines
+- Cadre : Stage de 1ère année de BTS SIO SLAM
+- Chef de projet : GUCLU Sefa
+- Contributeur : 1 (GUCLU Sefa)
 
 Description : 
 - MFR BDD est un outil qui permet de contacter, prospecter et suivre les entreprises partenaires du CFA.
-
-Objectif :
-- Avoir une base de travail pour contacter, prospecter et suivre les entreprises partenaires du CFA.
 
 Fonctionnalités :
 - Répertorier tous les établissements donateurs de taxe d’apprentissage (avant réforme 2019) : qui
@@ -17,7 +16,7 @@ Fonctionnalités :
 - Répertorier les sites d’accueil parfois différents des sites administratifs : où
 - Savoir quelles formations intéressent quels établissements : quoi, où et qui
 - Savoir si les entreprises travaillent avec d’autres CFA, lesquels et quelles formations
-- Conserver une trace de chaque contact avec l’entreprise, l’interlocuteur, le contenu de l’entretien
+- Conserver une trace de chaque contact avec l’entreprise, l’interlocuteur, le contenu de l’entretien, la date de rappel
 - Pouvoir consulter l’historique de ces contacts
 - Pouvoir intégrer un évènement particulier avec l’entreprise : manifestation extérieure, visite MFR,intervention à la MFR, recrutement… et le consulter
 - Pouvoir intégrer dans la fiche entreprise une offre d’alternance ou une demande d'alternance
