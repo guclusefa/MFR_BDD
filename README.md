@@ -4,8 +4,8 @@ Crée par :
 -Durée du projet : 5 semaines
 -BTS SIO SLAM1
 
-Déscription : 
--
+Description : 
+- MFR BDD est un outil qui permet de contacter, prospecter et suivre les entreprises partenaires du CFA.
 
 Objectif :
 - Avoir une base de travail pour contacter, prospecter et suivre les entreprises partenaires du CFA.
@@ -20,11 +20,13 @@ Fonctionnalités :
 - Conserver une trace de chaque contact avec l’entreprise, l’interlocuteur, le contenu de l’entretien
 - Pouvoir consulter l’historique de ces contacts
 - Pouvoir intégrer un évènement particulier avec l’entreprise : manifestation extérieure, visite MFR,intervention à la MFR, recrutement… et le consulter
-- Pouvoir intégrer dans la fiche entreprise une offre d’alternance
-- Pouvoir faire un suivi de cette offre alternance (pourvue ou non)
-- Pouvoir récupérer chaque année dans IMFR les étudiants et les injecter dans la BDD
-- Pouvoir sectoriser les entreprises par activité, département, nombre de salariés (et plus ?)
+- Pouvoir intégrer dans la fiche entreprise une offre d’alternance ou une demande d'alternance
+- Pouvoir faire un suivi de cette offre / demande alternance (pourvue ou non)
+- Pouvoir sectoriser les entreprises par activité, département, nombre de salariés et plus
 - Pouvoir faire un e-mailing
+- Pouvoir avoir accès à quelques statistiques sous formes de grphiques
+- Pouvoir exporter la base de données
+- Guide d'utilisation
 
 Informations :
 - Etablissement : Raison sociale Adresse Téléphone
