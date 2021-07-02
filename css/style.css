@@ -1,0 +1,262 @@
+/*-------------------------------------------mes classes----------------------------------------------------*/
+.center {
+  margin: 0 auto;
+  width:100% /* value of your choice which suits your alignment */
+}
+/*-------------------------------------------menu----------------------------------------------------*/
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+.form -control:focus {
+    border-color: #ceab5e;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ceab5e;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #F8F9FA;
+}
+header{
+  margin-bottom: 20px;
+}
+.pasdemargin {
+  margin-top: -20px;
+}
+/*-------------------------------------------connexion----------------------------------------------------*/
+.login-container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.login-form-1{
+  padding: 5%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+  text-align: center;
+  color: #333;
+}
+.login-form-2{
+  padding: 5%;
+  background: #0062cc;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+  text-align: center;
+  color: #fff;
+}
+.login-container form{
+  padding: 10%;
+}
+.btnSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+  font-weight: 600;
+  color: #fff;
+  background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+  font-weight: 600;
+  color: #0062cc;
+  background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+  color: #0062cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+/*-------------------------------------------divers----------------------------------------------------*/
+.button_w100 {
+  width: 100%;
+}
+
+.margin_30 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.margin_bottom20 {
+  margin-bottom: 20px;
+}
+
+.select_etab {
+  width: 18%;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 2.5%;
+}
+
+
+.select_label {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 20%;
+}
+
+.select_label2 {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 40%;
+}
+
+
+.select_etab_gauche {
+  margin-left: 0;
+}
+
+.select_ordre {
+  width: 18%;
+}
+
+.etab_criteres {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 3%;
+}
+
+.titre_tableau {
+  clear:both;
+  display: block;
+  width: 100%;
+}
+
+.margin_20 {
+  margin-top: 20px;
+}
+
+.test {
+  margin-top: -32px;
+  float: left;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.table-success{
+  color: green;
+}
+
+.table-success a{
+  color: green;
+}
+
+.table-danger{
+  color: red;
+}
+
+.table-danger a {
+  color: red;
+}
+
+.table-danger a:hover {
+  color: red;
+}
+
+.table-primary {
+  color: blue;
+}
+
+.table-primary a {
+  color: blue;
+}
+
+.table-primary a:hover {
+  color: blue;
+}
+
+.table-warning {
+  color: orange;
+}
+
+/*-------------------------------------------formulaires----------------------------------------------------*/
+
+.required:after {
+  content:" *";
+  color:red;
+}
+
+
+/*-------------------------------------------javascript----------------------------------------------------*/
+#Div2 {
+    display: none;
+}
+
+#show-me {
+    display:none;
+  }
+
+ 
+  .btnevent {
+    color: #fff;
+  }
+
+  .entry:not(:first-of-type)
+{
+    margin-top: 30px;
+}
+
+.margin_100 {
+  margin-top: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* .table-responsive {
+  overflow-y: scroll;
+  overflow: hidden; 
+} */
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+table td {
+  font-size: medium;
+}
+
+.table {
+  clear: both;  
+  display:  table;
+  min-width: 100% !important;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling:touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.text-nowrap {
+  white-space:normal !important
+}
+
+body {
+  height: 100%;
+  min-height:100%;
+  position:relative;
+}
+
+.hover-logo {
+  color: rgba(16, 15, 15, 0.7);
+}
+
+.hover-logo:hover {
+  color: #333;
+}
