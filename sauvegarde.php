@@ -9,8 +9,9 @@ if (isset($_SESSION['id'])) {
     $id_admin = $requete['memb_admin'];
 }
 if (isset($_SESSION['id']) and $id_admin > 2) {
-
+    //pour étabs
     if (isset($_GET['etabs'])) {
+        // requete
         $select = $pdo->prepare('
         SELECT etab_id, etab_raisonSocial, secteur_nom, origineEnt_intitule, departement_code, etab_adresse, etab_ville, etab_cp, etab_tel, etab_mail, etab_donnateur, etab_interest, etab_raison, etab_url 
         FROM etablissements, secteurs_entreprise, types_entreprise, origines_entreprise, departement WHERE etab_idSecteur = secteur_id AND etab_idType = typeEnt_id AND etab_idOrigine = origineEnt_id AND etab_idDepartement = departement_id
@@ -21,16 +22,20 @@ if (isset($_SESSION['id']) and $id_admin > 2) {
 
         $newReservations = $select->fetchAll();
 
+        //nom colonnes
         $excel = "";
         $excel .=  "ETAB ID\tETAB RS\tETAB SECTEUR\tETAB ORIGINE\tETAB DEPARTEMENT\tETAB ADRESSE\tETAB VILLE\tETAB CP\tETAB TEL\tETAB MAIL\tETAB DONATEUR\tETAB INTERESSE\tETAB RAISON\tETAB SITE\n";
 
+        // liste data
         foreach ($newReservations as $row) {
             $excel .= "$row[etab_id]\t$row[etab_raisonSocial]\t$row[secteur_nom]\t$row[origineEnt_intitule]\t$row[departement_code]\t$row[etab_adresse]\t$row[etab_ville]\t$row[etab_cp]\t$row[etab_tel]\t$row[etab_mail]\t$row[etab_donnateur]\t$row[etab_interest]\t$row[etab_raison]\t$row[etab_url]\n";
         }
 
+        // format + nom ficher
         header("Content-type: application/vnd.ms-excel");
         header("Content-disposition: attachment; filename=mfr_bdd_etablissements.xls");
 
+        // dl
         print $excel;
         exit;
     }
