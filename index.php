@@ -34,7 +34,7 @@ require 'mesfonctions.php';
         ?>
         <!-- Page Heading -->
         <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Statistiques <span class="badge badge-secondary">BÉTA</span></h1>
+            <h1 class="h3 mb-0 text-gray-800">Statistiques <span class="badge badge-secondary">BETA</span></h1>
             <?php if (isset($_SESSION['id']) and $id_admin > 1) { ?><button class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-download fa-sm text-white-50"></i> Exporter la BDD</button><?php } ?>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="sauvegarde?etabs"><i class="fas fa-download fa-sm text-grey-50"></i> Établissements</a>
